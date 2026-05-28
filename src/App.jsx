@@ -432,12 +432,13 @@ export default function App() {
 
 const s = {
   app: {
-    background: "#F8FAFC",
-    minHeight: "100vh",
-    fontFamily: "'DM Mono', 'Courier New', monospace",
-    color: "#111827",
-    paddingBottom: 60,
-  },
+  background: "#F8FAFC",
+  minHeight: "100vh",
+  fontFamily: "'Montserrat', sans-serif",
+  fontSize: 14,
+  color: "#111827",
+  paddingBottom: 48,
+},
   header: {
     background: "#FFFFFF",
     borderBottom: "1px solid #E5E7EB",
@@ -450,7 +451,7 @@ const s = {
     zIndex: 10,
   },
   headerLeft: { display: "flex", alignItems: "center", gap: 16 },
-  logo: { fontSize: 12, fontWeight: 700, letterSpacing: "0.18em", color: "#111827" },
+  logo: { fontSize: 14, fontWeight: 700, letterSpacing: "0.18em", color: "#111827", fontFamily: "'Montserrat', sans-serif" },
   hdivider: { width: 1, height: 20, background: "#E5E7EB" },
   viewingLabel: { fontSize: 11, color: "#9CA3AF", letterSpacing: "0.08em" },
   select: {
@@ -479,13 +480,13 @@ const s = {
     marginBottom: 4,
   }),
   sectionLabel: {
-    fontSize: 10,
-    fontWeight: 700,
-    letterSpacing: "0.18em",
-    color: "#9CA3AF",
-    marginBottom: 10,
-    marginTop: 24,
-    textTransform: "uppercase",
+  fontSize: 14,
+  fontWeight: 700,
+  fontFamily: "'Playfair Display', serif",
+  letterSpacing: "0.04em",
+  color: "#374151",
+  marginBottom: 12,
+  marginTop: 28,
   },
   kpiGrid: {
     display: "grid",
