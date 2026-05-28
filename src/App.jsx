@@ -13,7 +13,7 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip);
 // ─── CONFIG ───────────────────────────────────────────────────────────────────
 
 const API_URL =
-  "https://script.google.com/macros/s/AKfycbzYamrVU8N0xsL2WmXV9EwMqMQR5TSTkSMCdrmBK-BCVQ2j0Xpn5X3OVl2QA7T4mBEP/exec";
+  "/api/dashboard";
 
 const STAGE_LABELS = {
   1: "Candidate",
